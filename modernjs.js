@@ -25,3 +25,19 @@ let msg = "Hello user";
 msg = 123;
 
 console.log(msg);
+
+
+console.log(1 / 0);
+
+console.log(Infinity);
+console.log("Asim" / 2);
+
+
+// double quotes
+let str1 = "Double quotes";
+let str2 = 'Single quotes';
+let str3 = `Backticks`;
+
+let str4 = `Hello there there, ${str1}`;
+
+console.log(str1 + '\n' + str2, str3, str4);
