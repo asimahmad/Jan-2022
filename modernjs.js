@@ -17,3 +17,11 @@ let user = "Kriti",
     age = 23,
     dept = 'CSE';
 console.log(user);
+
+
+
+// below one is dynamically typed meaning: there exist data types but are not bound to any of them.
+let msg = "Hello user";
+msg = 123;
+
+console.log(msg);
